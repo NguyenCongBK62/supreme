@@ -1,0 +1,102 @@
+.point-detail {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 405px;
+  height: auto;
+  border: 1px solid rgb(169, 235, 164);
+  background-color: #ffffff;
+  z-index: 400;
+}
+.point-detail span {
+  height: 25px;
+  width: 100%;
+}
+.point-header {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(169, 235, 164)) !important;
+  display: flex;
+  color: black;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  height: 30px;
+  padding: 0 10px;
+}
+.point-header-button > button {
+  height: 20px;
+  min-width: 10px !important;
+  width: 20px;
+  font-size: 12px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(rgb(255, 255, 255), #ccc);
+  cursor: pointer;
+}
+.point-content {
+  padding: 0 10px;
+  background-color: #ffffff;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+}
+.point-content-row-1 {
+  height: 75px;
+  width: auto;
+  display: flex;
+}
+.row-col {
+  display: flex;
+  flex-direction: column;
+}
+/*  */
+.point-content-row-1-col-1 {
+  width: 225px;
+}
+.point-content-row-1-col-2 {
+  width: 90px;
+}
+.point-content-row-2 {
+  display: flex;
+  flex-direction: row;
+}
+.point-content-row-2 .point-content-row-2-col-1 {
+  width: 100px;
+}
+.point-content-row-2 .point-content-row-2-col-2 {
+  width: 155px;
+}
+
+.point-content-row-3 {
+  display: flex;
+}
+.point-content-row-3-col-1,
+.point-content-row-3-col-3 {
+  width: 80px;
+}
+.point-content-row-3-col-2,
+.point-content-row-3-col-4 {
+  width: 70px;
+}
+.point-content-row-3-col-5,
+.point-content-row-3-col-6 {
+  width: 50px;
+}
+.point-content-row-4 {
+  display: flex;
+}
+
+.point-content-row-4-col-1 {
+  width: 110px;
+}
+/*  */
+.point-footer {
+  display: flex;
+  justify-content: center;
+}
+.point-footer > button {
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px 20px 5px;
+  cursor: pointer;
+}

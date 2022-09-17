@@ -1,0 +1,200 @@
+.ShutoffBlock_top {
+  border: 1px solid lightblue;
+  margin-bottom: 4px;
+}
+.ShutoffBlock {
+  height: calc(100vh - 112px);
+  line-height: 1.5;
+}
+
+.ShutoffBlock__title {
+  background: linear-gradient(to bottom, white 10%, lightblue 90%);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+.ShutoffBlock__title > button {
+  width: 76px;
+  font-size: 12px;
+  height: 25px;
+  margin: 0 3px 0 0;
+  padding: 0 6px;
+}
+
+.ShutoffBlock__Grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.ShutoffBlock__PatternGrid {
+  height: 115px;
+  visibility: hidden;
+  display: none;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr > td,
+.ShutoffBlock__CustomerCountGrid tbody > tr > td {
+  height: 22px;
+}
+
+.ShutoffBlock__CustomerCountGrid tbody > tr > td,
+.ShutoffBlock__PatternGrid tbody > tr > td {
+  width: 100px;
+  text-align: left;
+  border: 1px solid #aaaaaa;
+  padding: 0 6px;
+  background-color: #eeeeee;
+}
+
+.ShutoffBlock__CustomerCountGrid tbody > tr > td:nth-child(2) {
+  background-color: #fff;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(1) {
+  width: 100px;
+  background: transparent;
+  border: none;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr:last-child > td:nth-child(1) {
+  border: 1px solid #aaaaaa;
+  border-right: none;
+  background-color: #eeeeee;
+}
+
+.ShutoffBlock__CustomerCountGrid {
+  width: 250px;
+  border: 1px solid #aaaaaa;
+}
+
+.ShutoffBlock__CustomerCountGrid tbody > tr > td:nth-child(1),
+.ShutoffBlock__CustomerCountGrid tbody > tr > td:nth-child(2) {
+  width: 50%;
+}
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(2),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(3),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(4),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(5),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(6),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(8) {
+  width: 120px;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(7),
+.ShutoffBlock__PatternGrid tbody > tr:first-child > td:nth-child(4) {
+  width: 1%;
+  background-color: transparent;
+  border: none;
+}
+.ShutoffBlock__PatternGrid tbody > tr:nth-child(4) > td:nth-child(3),
+.ShutoffBlock__PatternGrid tbody > tr:nth-child(3) > td:nth-child(3) {
+  background-color: #fdffd9;
+}
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(8),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(6),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(5),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(4),
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(3) {
+  border-top: none;
+  border-bottom: none;
+}
+.ShutoffBlock__PatternGrid tbody > tr:first-child > td:nth-child(5) {
+  border: 1px solid #aaaaaa;
+  border-bottom: none;
+}
+.ShutoffBlock__PatternGrid tbody > tr > td:nth-child(2) {
+  border-top: none;
+  border-bottom: none;
+  background-color: #ffdfe4;
+}
+.ShutoffBlock__PatternGrid tbody > tr:nth-child(2) > td:nth-child(2),
+.ShutoffBlock__PatternGrid tbody > tr:nth-child(2) > td:nth-child(3) {
+  border: 1px solid #aaaaaa;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr:nth-child(2) > td:nth-child(2) {
+  border-right: none;
+  background-color: #eeeeee;
+}
+.ShutoffBlock__PatternGrid tbody > tr:nth-child(2) > td:nth-child(3) {
+  border-left: none;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr:first-child > td:nth-child(2) {
+  border: 1px solid #aaaaaa;
+  background-color: #eeeeee;
+}
+.ShutoffBlock__PatternGrid tbody > tr:first-child > td:nth-child(3) {
+  border: 1px solid #aaaaaa;
+  border-bottom: none;
+}
+
+.ShutoffBlock__PatternGrid tbody > tr:last-child > td {
+  background-color: #fff;
+}
+
+.TsunamiCommentLine {
+  margin: 0 0 0 6px;
+  color: #421173;
+}
+.SelectOverOutageStackPanel span {
+  display: inline-block;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+.SelectOverOutageStackPanel{
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.SortLeakEncounterRateStackPanel{
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.CommentStackPanel{
+  white-space: nowrap;
+}
+.OperateStackPanel,
+.ShutoffBlock__bottom {
+  display: flex;
+  align-items: center;
+}
+.ShutoffExecuteButton {
+  width: 240px;
+  height: 50px;
+  font-size: 35px;
+  margin-left: 20px;
+  font-weight: 300;
+  background: linear-gradient(to top, #fecbcb, transparent 90%);
+}
+.CheckSheetButton,
+.OperationHistoryButton {
+  margin-left: 2px;
+  height: 25px;
+}
+.ShutoffBlock__bottom {
+  justify-content: space-between;
+}
+
+.TotalShutoffCntText {
+  white-space: nowrap;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.SblockOperateStackPanel {
+  visibility: collapse;
+}
+
+.SelectOverOutageButtonForThresholdSumDmgCnt1 {
+  background: linear-gradient(to bottom, white 50%, lightyellow);
+}
+
+.SelectOverOutageButtonForThresholdSumDmgCnt2 {
+  background: linear-gradient(to bottom, white 50%, Lightpink);
+}

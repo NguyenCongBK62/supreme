@@ -1,0 +1,45 @@
+@mixin head-1 {
+    font-size: 96px;
+    line-height: 1;
+    letter-spacing: -0.01562em;
+}
+@mixin head-2 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.00833em;
+}
+@mixin head-3 {
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: 0em;
+}
+@mixin head-4 {
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.00735em;
+}
+@mixin head-5 {
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0em;
+}
+@mixin head-6 {
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}
+@mixin title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+@mixin body {
+    font-size: 15px;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+@mixin subtitle {
+    font-size: 13px;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+}

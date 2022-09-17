@@ -1,0 +1,77 @@
+.point-detail {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 415px;
+  height: auto;
+  border: 1px solid rgb(169, 235, 164);
+  background-color: #ffffff;
+  z-index: 400;
+}
+.point-detail span {
+  height: 25px;
+}
+.point-header {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(169, 235, 164)) !important;
+  display: flex;
+  color: black;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  height: 30px;
+  padding: 0 10px;
+}
+.point-header-button > button {
+  height: 20px;
+  min-width: 10px !important;
+  width: 20px;
+  font-size: 12px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(rgb(255, 255, 255), #ccc);
+  cursor: pointer;
+}
+.point-content-gakan {
+  padding: 0 10px;
+  background-color: #ffffff;
+  height: 340px;
+  display: flex;
+}
+.point-content-col-1 {
+  width: 105px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.point-content-col-2 {
+  width: 95px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+.point-content-col-3 {
+  width: 105px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+.point-content-col-4 {
+  width: 95px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+.point-footer {
+  display: flex;
+  justify-content: center;
+}
+.point-footer > button {
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px 20px 5px;
+  cursor: pointer;
+}

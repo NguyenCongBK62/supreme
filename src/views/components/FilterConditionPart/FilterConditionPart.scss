@@ -1,0 +1,47 @@
+.FilterConditionPart {
+  display: flex;
+  align-items: center;
+}
+.FilterConditionPart button {
+  width: 80px;
+}
+.text0,
+.text1 {
+  margin: 3px 0 0 10px;
+}
+.FilterConditionPartsStatusText {
+  margin: 3px 0 0 5px;
+  color: red;
+  animation: glowing 1.5s infinite;
+}
+@keyframes glowing {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.FilterConditionPartsText,
+.SortConditionPartsText {
+  color: green;
+  margin: 3px 0 0 5px;
+  font-weight: 500;
+}
+.ClearFilterConditionParts {
+  height: 40px;
+}
+
+.collapse {
+  visibility: collapse;
+}
+.d-initial {
+  display: initial;
+}
+
+.d-none {
+  display: none;
+}

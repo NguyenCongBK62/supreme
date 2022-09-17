@@ -1,0 +1,31 @@
+@import url('~leaflet/dist/leaflet.css');
+
+.leaflet-container {
+  background-color: #fff;
+  z-index: 1;
+  cursor: help !important;
+}
+.gakan-icon {
+  border-radius: 50%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-width: 150px;
+  align-items: center;
+}
+
+.gakan-text {
+  margin-left: 5px;
+}
+.leaflet-interactive {
+  cursor: default !important;
+}
+
+.leaflet-drag-target {
+  cursor: pointer !important;
+}
+
+.leaflet-pane,
+.leaflet-marker-pane :hover {
+  cursor: default !important;
+}

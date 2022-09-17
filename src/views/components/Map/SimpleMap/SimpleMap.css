@@ -1,0 +1,7 @@
+.simple-map--visible {
+  display: initial;
+}
+
+.simple-map--collapsed {
+  display: none;
+}

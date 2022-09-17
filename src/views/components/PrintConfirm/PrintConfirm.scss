@@ -1,0 +1,44 @@
+div.print-confirm {
+  position: absolute;
+  width: 400px;
+  top: 30%;
+  left: 40%;
+  z-index: 600;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid LightGreen;
+  display: flex;
+  flex-direction: column;
+}
+
+.print-confirm-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(169, 235, 164)) !important;
+}
+
+.print-confirm-close-button {
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  background-image: linear-gradient(rgb(255, 255, 255), #ccc);
+}
+
+.print-confirm-button {
+  padding: auto;
+  height: 25px;
+  width: 70px;
+  margin: 1rem 2rem;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  background-image: linear-gradient(rgb(255, 255, 255), #ccc);
+}
+
+.print-confirm-content {
+  text-align: center;
+  padding: 15px;
+  align-items: center;
+}
+
+.print-checkbox {
+  margin: auto !important;
+}
